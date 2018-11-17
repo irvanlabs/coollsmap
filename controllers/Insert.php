@@ -138,9 +138,9 @@ function inputKost(){
             redirect('karyawan/tambahKaryawan');
         }
     } else{
-        $this->load->view('karyawan/header');
-        $this->load->view('karyawan/tambahKaryawan');
-        $this->load->view('karyawan/footer');
+        $this->load->view('karyawan/header');//CHANGE
+        $this->load->view('karyawan/tambahKaryawan');//CHANGE
+        $this->load->view('karyawan/footer');//CHANGE
     }
 
 }
