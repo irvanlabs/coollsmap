@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 17, 2018 at 08:06 PM
+-- Generation Time: Nov 17, 2018 at 09:26 PM
 -- Server version: 10.1.34-MariaDB-0ubuntu0.18.04.1
 -- PHP Version: 7.2.10-0ubuntu0.18.04.1
 
@@ -45,6 +45,7 @@ CREATE TABLE `fotocopy` (
 CREATE TABLE `indekos` (
   `id_kos` char(7) NOT NULL,
   `coordinate` char(100) NOT NULL,
+  `name` varchar(50) NOT NULL,
   `description` text NOT NULL,
   `picture` char(80) NOT NULL,
   `rates` smallint(15) NOT NULL,
